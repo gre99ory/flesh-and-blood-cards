@@ -51,9 +51,9 @@ def insert(cur, id, name, editions, initial_release_dates, out_of_print_dates, s
         print(error)
 
 def generate_table(cur):
-    print("Filling out sets table from set.csv...\n")
+    print("Filling out sets table from english/set.csv...\n")
 
-    path = Path(__file__).parent / "../../csvs/set.csv"
+    path = Path(__file__).parent / "../../csvs/english/set.csv"
     with path.open(newline='') as csvfile:
         reader = csv.reader(csvfile, delimiter='\t', quotechar='"')
         next(reader)

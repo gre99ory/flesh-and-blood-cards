@@ -42,9 +42,9 @@ def insert(cur, name):
         print(error)
 
 def generate_table(cur):
-    print("Filling out artists table from artist.csv...\n")
+    print("Filling out artists table from english/artist.csv...\n")
 
-    path = Path(__file__).parent / "../../csvs/artist.csv"
+    path = Path(__file__).parent / "../../csvs/english/artist.csv"
     with path.open(newline='') as csvfile:
         reader = csv.reader(csvfile, delimiter='\t', quotechar='"')
         next(reader)

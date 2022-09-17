@@ -43,9 +43,9 @@ def insert(cur, icon, name):
         print(error)
 
 def generate_table(cur):
-    print("Filling out icons table from icon.csv...\n")
+    print("Filling out icons table from english/icon.csv...\n")
 
-    path = Path(__file__).parent / "../../csvs/icon.csv"
+    path = Path(__file__).parent / "../../csvs/english/icon.csv"
     with path.open(newline='') as csvfile:
         reader = csv.reader(csvfile, delimiter='\t', quotechar='"')
         next(reader)

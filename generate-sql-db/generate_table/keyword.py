@@ -43,9 +43,9 @@ def insert(cur, keyword, name):
         print(error)
 
 def generate_table(cur):
-    print("Filling out keywords table from keyword.csv...\n")
+    print("Filling out keywords table from english/keyword.csv...\n")
 
-    path = Path(__file__).parent / "../../csvs/keyword.csv"
+    path = Path(__file__).parent / "../../csvs/english/keyword.csv"
     with path.open(newline='') as csvfile:
         reader = csv.reader(csvfile, delimiter='\t', quotechar='"')
         next(reader)

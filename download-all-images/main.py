@@ -30,13 +30,13 @@ if not exists(images_dir_path):
     print(images_dir_path + " does not exist, creating it")
     makedirs(images_dir_path)
 
-path = Path(__file__).parent / "../csvs/card.csv"
+path = Path(__file__).parent / "../csvs/english/card.csv"
 with path.open(newline='') as csvfile:
     reader = csv.reader(csvfile, delimiter='\t', quotechar='"')
     next(reader)
 
     for row in reader:
-        image_urls = [re.split(" – | - ", url.strip())[0].strip() for url in row[35].split(',')]
+        image_urls = [re.split(" – | - ", url.strip())[0].strip() for url in row[36].split(',')]
         for image_url in image_urls:
             download_image_from_url(image_url)
 

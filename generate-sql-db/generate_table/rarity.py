@@ -43,9 +43,9 @@ def insert(cur, id, description):
         print(error)
 
 def generate_table(cur):
-    print("Filling out rarities table from rarity.csv...\n")
+    print("Filling out rarities table from english/rarity.csv...\n")
 
-    path = Path(__file__).parent / "../../csvs/rarity.csv"
+    path = Path(__file__).parent / "../../csvs/english/rarity.csv"
     with path.open(newline='') as csvfile:
         reader = csv.reader(csvfile, delimiter='\t', quotechar='"')
         next(reader)

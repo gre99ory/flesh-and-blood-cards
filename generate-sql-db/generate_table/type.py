@@ -41,9 +41,9 @@ def insert(cur, name):
         print(error)
 
 def generate_table(cur):
-    print("Filling out types table from type.csv...\n")
+    print("Filling out types table from english/type.csv...\n")
 
-    path = Path(__file__).parent / "../../csvs/type.csv"
+    path = Path(__file__).parent / "../../csvs/english/type.csv"
     with path.open(newline='') as csvfile:
         reader = csv.reader(csvfile, delimiter='\t', quotechar='"')
         next(reader)

@@ -43,9 +43,9 @@ def insert(cur, id, name):
         print(error)
 
 def generate_table(cur):
-    print("Filling out foilings table from foiling.csv...\n")
+    print("Filling out foilings table from english/foiling.csv...\n")
 
-    path = Path(__file__).parent / "../../csvs/foiling.csv"
+    path = Path(__file__).parent / "../../csvs/english/foiling.csv"
     with path.open(newline='') as csvfile:
         reader = csv.reader(csvfile, delimiter='\t', quotechar='"')
         next(reader)
