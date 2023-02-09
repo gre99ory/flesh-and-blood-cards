@@ -1,3 +1,4 @@
+<?php
 import generate_table_data.ability
 import generate_table_data.ability_translations
 import generate_table_data.artist
@@ -15,12 +16,17 @@ import generate_table_data.set_edition
 import generate_table_data.type
 import generate_table_data.type_translations
 
-def create_tables(conn = None):
-    print("Creating tables...")
+function create_tables($conn)
+{
+    print("Creating tables...");
+
     cur = conn.cursor()
 
-    generate_table_data.ability.create_table(cur)
-    generate_table_data.ability_translations.create_table(cur)
+    ability::create_table()
+    ability_translations::create_table()
+
+    // generate_table_data.ability.create_table(cur)
+    // generate_table_data.ability_translations.create_table(cur)
     generate_table_data.artist.create_table(cur)
     generate_table_data.set.create_table(cur)
     generate_table_data.set_edition.create_table(cur)

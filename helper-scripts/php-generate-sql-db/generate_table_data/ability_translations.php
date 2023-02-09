@@ -1,8 +1,38 @@
-import json
-import psycopg2
-from pathlib import Path
+<?php
+require_once('db_entity.php');
 
+// + PDO /!\
+
+class ability_translations extends db_entity
+{
+    static protected $table_name = 'ability_translations';
+
+    static protected $fields = [
+        'abitility_unique_id' => [ 
+            DB_TYPE => VC21,
+            DB_EXTRA => NOT_NULL,
+            DB_PRIMARY,
+            DB_FOREIGN => [ 'abilities' => 'unique_id' ], 
+        ],
+        'language' => [
+            DB_TYPE => VC10,
+            DB_EXTRA => NOT_NULL, 
+            DB_PRIMARY,
+        ],
+        'name' => [
+            DB_TYPE => VC255
+        ]
+    ];
+
+    static protected $primary_key = [ 'ability_unique']
+
+
+function create_table() {
+    // create table 
+}
+}
 def create_table(cur):
+
     command = """
         CREATE TABLE ability_translations (
             ability_unique_id VARCHAR(21) NOT NULL,
