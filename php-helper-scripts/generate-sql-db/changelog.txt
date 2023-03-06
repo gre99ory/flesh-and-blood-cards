@@ -1,0 +1,7 @@
+06-03-23:
+- Initial version
+- Loads json files into tables:
+	abilities, ability_translations, artists, cards, card_printings, card_translations,
+	editions, foilings, icons, keywords, keyword_translations, rarities,
+	sets, set_editions; types, type_translations
+
