@@ -1,6 +1,7 @@
 import csv
 from os.path import exists
 from pathlib import Path
+import re
 
 def create_artists_csv_from_card_csv(language, artist_column_index):
     print(f"Generating {language} artist.csv from {language} card.json...")
@@ -17,15 +18,15 @@ def create_artists_csv_from_card_csv(language, artist_column_index):
             artist_column=row[artist_column_index]
             individual_artists=artist_column.split(',')
             for artist in individual_artists:
-                artists.add(artist.strip())
+                artists.add(re.split(r'\s+[-–—]\s+', artist)[0].strip())
 
     # Sort the artists
     artists_sorted = sorted(artists, key=str.casefold)
 
     # Output the sorted list of unique artists as a CSV
     path = Path(__file__).parent / f"../../csvs/{language}/artist.csv"
-    with path.open('w', newline='\n') as csvout:
-        writer = csv.writer(csvout)
+    with path.open('w', newline='') as csvout:
+        writer = csv.writer(csvout, lineterminator="\n")
 
         # Add title row
         writer.writerow(["Name"])

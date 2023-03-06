@@ -1,11 +1,13 @@
 #!/bin/bash
 
-./generate-artists.sh
+[ -d "helper-scripts" ] && cd helper-scripts
+
+./generate-artists.sh || exit $?
 echo ""
-./generate-unique-ids.sh
+./generate-unique-ids.sh || exit $?
 echo ""
-./generate-json.sh
+./generate-json.sh || exit $?
 echo ""
-./validate-json.sh
+./validate-json.sh || exit $?
 echo ""
-./generate-htmls.sh
+./generate-htmls.sh || exit $?
