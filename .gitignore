@@ -1,4 +1,5 @@
 download-all-images/images/*
+php-helper-scripts/download-all-images/images/*
 generate-db-*.sh
 .vscode
 .~lock.card.csv#
