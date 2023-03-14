@@ -3,17 +3,28 @@
 require_once('fab/ability_class.php');
 require_once('fab/ability_translations_class.php');
 require_once('fab/artist_class.php');
+require_once('fab/banned_blitz_class.php');
+require_once('fab/banned_cc_class.php');
+require_once('fab/banned_commoner_class.php');
+require_once('fab/banned_upf_class.php');
 require_once('fab/card_class.php');
+require_once('fab/card_face_associationclass.php');
 require_once('fab/card_printing_class.php');
+require_once('fab/card_reference_class.php');
 require_once('fab/card_translations_class.php');
 require_once('fab/edition_class.php');
 require_once('fab/foiling_class.php');
 require_once('fab/icon_class.php');
 require_once('fab/keyword_class.php');
 require_once('fab/keyword_translations_class.php');
+require_once('fab/living_legend_blitz_class.php');
+require_once('fab/living_legend_cc_class.php');
 require_once('fab/rarity_class.php');
 require_once('fab/set_class.php');
 require_once('fab/set_edition_class.php');
+require_once('fab/suspended_blitz_class.php');
+require_once('fab/suspended_cc_class.php');
+require_once('fab/suspended_commoner_class.php');
 require_once('fab/type_class.php');
 require_once('fab/type_translations_class.php');
 
@@ -39,6 +50,21 @@ function create_tables()
     type::create_table();
     type_translations::create_table();
 
+    card_face_asociation::create_table();
+    card_reference::create_table();
+
+    banned_blitz::create_table();
+    banned_cc::create_table();
+    banned_commoner::create_table();
+    banned_upf::create_table();
+
+    living_legend_blitz::create_table();
+    living_legend_cc::create_table();
+
+    suspended_blitz::create_table();
+    suspended_cc::create_table();    
+    suspended_commoner::create_table();
+    
     // cur.close()
     print("Finished creating tables\n");
 }
@@ -51,6 +77,22 @@ function drop_tables()
 
 
     // DB::execute( "SET SESSION foreign_key_checks = 1" );
+
+    card_face_asociation::drop_table();
+    card_reference::drop_table();
+
+    banned_blitz::drop_table();
+    banned_cc::drop_table();
+    banned_commoner::drop_table();
+    banned_upf::drop_table();
+
+    living_legend_blitz::drop_table();
+    living_legend_cc::drop_table();
+
+    suspended_blitz::drop_table();
+    suspended_cc::drop_table();    
+    suspended_commoner::drop_table();
+
     card_printing::drop_table();        // <= cards, set_editions
 
     ability_translations::drop_table(); // <= abilities
@@ -105,6 +147,21 @@ function generate_all_table_data($url_for_images = null)
     set_edition::generate_table_data("english");
     
     card_printing::generate_table_data('english',$url_for_images);
+
+    card_face_asociation::generate_table_data();
+    card_reference::generate_table_data();
+
+    banned_blitz::generate_table_data();
+    banned_cc::generate_table_data();
+    banned_commoner::generate_table_data();
+    banned_upf::generate_table_data();
+
+    living_legend_blitz::generate_table_data();
+    living_legend_cc::generate_table_data();
+
+    suspended_blitz::generate_table_data();
+    suspended_cc::generate_table_data();    
+    suspended_commoner::generate_table_data();
     
     generate_non_english_table_data("french");
     generate_non_english_table_data("german");
