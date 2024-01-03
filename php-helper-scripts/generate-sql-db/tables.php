@@ -8,7 +8,7 @@ require_once('fab/banned_cc_class.php');
 require_once('fab/banned_commoner_class.php');
 require_once('fab/banned_upf_class.php');
 require_once('fab/card_class.php');
-require_once('fab/card_face_associationclass.php');
+require_once('fab/card_face_association_class.php');
 require_once('fab/card_printing_class.php');
 require_once('fab/card_reference_class.php');
 require_once('fab/card_translations_class.php');
@@ -50,7 +50,7 @@ function create_tables()
     type::create_table();
     type_translations::create_table();
 
-    card_face_asociation::create_table();
+    card_face_association::create_table();
     card_reference::create_table();
 
     banned_blitz::create_table();
@@ -78,7 +78,7 @@ function drop_tables()
 
     // DB::execute( "SET SESSION foreign_key_checks = 1" );
 
-    card_face_asociation::drop_table();
+    card_face_association::drop_table();
     card_reference::drop_table();
 
     banned_blitz::drop_table();
@@ -148,7 +148,7 @@ function generate_all_table_data($url_for_images = null)
     
     card_printing::generate_table_data('english',$url_for_images);
 
-    card_face_asociation::generate_table_data();
+    // card_face_association::generate_table_data();
     card_reference::generate_table_data();
 
     banned_blitz::generate_table_data();
