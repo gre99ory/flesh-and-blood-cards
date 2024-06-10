@@ -1,5 +1,13 @@
 [
     {
+        "unique_id": "rTHPJJPwtDCgDfcwPGQGF",
+        "name": "1H"
+    },
+    {
+        "unique_id": "Gww6n8bCkqKpnFDpGRLcP",
+        "name": "2H"
+    },
+    {
         "unique_id": "FwdBrBrwHWcPN78TcRCMT",
         "name": "Action"
     },
@@ -56,6 +64,14 @@
         "name": "Bard"
     },
     {
+        "unique_id": "NnGCkGMQcnkBjHrcQRKHr",
+        "name": "Base"
+    },
+    {
+        "unique_id": "FkBpwWG8pfCrNFQGm8dtM",
+        "name": "Block"
+    },
+    {
         "unique_id": "KNJrMrb9HkWffrRC9tK98",
         "name": "Book"
     },
@@ -70,6 +86,10 @@
     {
         "unique_id": "Bp7wdKfgzKBz88hPDPGm6",
         "name": "Chest"
+    },
+    {
+        "unique_id": "9GTzcbqwBqpTpgKgWqPMm",
+        "name": "Chi"
     },
     {
         "unique_id": "jTMPmqBz8fWwJdP6W7qff",
@@ -90,6 +110,10 @@
     {
         "unique_id": "Fpr7Gq7zcGDkdcHjNPr8n",
         "name": "Defense Reaction"
+    },
+    {
+        "unique_id": "bpfz7p7r6CLggKRCccT8p",
+        "name": "Demi-Hero"
     },
     {
         "unique_id": "kchhNfctqPFht6DFNRWhJ",
@@ -114,6 +138,18 @@
     {
         "unique_id": "NGBgjq76Q7GHNH9P9nHgM",
         "name": "Equipment"
+    },
+    {
+        "unique_id": "hJ7L9WbpPFdjw9hKWN8cP",
+        "name": "Evo"
+    },
+    {
+        "unique_id": "JJWPzmkGQhHNMqMn77rkm",
+        "name": "Fiddle"
+    },
+    {
+        "unique_id": "QtLkb7CJCKTtgzrn7tb6N",
+        "name": "Figment"
     },
     {
         "unique_id": "CGT9kkqBNBgHJtTgWwqLn",
@@ -188,12 +224,20 @@
         "name": "Lute"
     },
     {
+        "unique_id": "KKLczcLQDgfCnQJjCqRpn",
+        "name": "Macro"
+    },
+    {
         "unique_id": "Bppz9JbPnKhzjMKtNKPDF",
         "name": "Mechanologist"
     },
     {
         "unique_id": "bwTjFPPD6BPQRmzGTMQC8",
         "name": "Mentor"
+    },
+    {
+        "unique_id": "cGdNmJhKfktDTfp8qpbHG",
+        "name": "Mercenary"
     },
     {
         "unique_id": "J8QjfW6zKK89wPpprJncb",
@@ -218,6 +262,10 @@
     {
         "unique_id": "dpKFPnnBFdfh6gcGGcj99",
         "name": "Placeholder Card"
+    },
+    {
+        "unique_id": "B7GtthGWB6pkK8M9NwWGp",
+        "name": "Quiver"
     },
     {
         "unique_id": "6JtD7ktRzGL7k9d7W7fbM",
@@ -256,6 +304,14 @@
         "name": "Shapeshifter"
     },
     {
+        "unique_id": "LFkWktbnhfjKm6MFWJJJr",
+        "name": "Shuriken"
+    },
+    {
+        "unique_id": "DCzN7qCMFqRDFGN7GGB87",
+        "name": "Song"
+    },
+    {
         "unique_id": "kK6NKKTFHQnmBJFFpFGgT",
         "name": "Staff"
     },
@@ -284,15 +340,11 @@
         "name": "Wizard"
     },
     {
+        "unique_id": "JcMmPWgPHqTKWJH8LDDHT",
+        "name": "Wrench"
+    },
+    {
         "unique_id": "QPtmrBGhLFbnpFMQznnwH",
         "name": "Young"
-    },
-    {
-        "unique_id": "rTHPJJPwtDCgDfcwPGQGF",
-        "name": "1H"
-    },
-    {
-        "unique_id": "Gww6n8bCkqKpnFDpGRLcP",
-        "name": "2H"
     }
 ]

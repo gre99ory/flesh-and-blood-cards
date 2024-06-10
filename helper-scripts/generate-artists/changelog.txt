@@ -14,3 +14,9 @@
 
 02-25-23:
 - Fixed an issue where the artists that change mid-printing weren't properly parsed
+
+06-19-23:
+- Updated the script to use the new CSV formats
+
+08-24-23:
+- Added .python-version file

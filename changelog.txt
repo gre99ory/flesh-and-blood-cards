@@ -369,3 +369,298 @@ HER058, HER059, HER060, HER061, HER062, HER063, HER064, HER065, HER066, JDG001, 
 
 02-26-23:
 - Added missing card references on `Hummingbird, Adventurer's Call` and Tales of Adventure
+
+03-12-23:
+- Fixed an issue where legality fields were not being properly parsed from the CSV files
+
+03-21-23:
+- Added card data (minus images) for FAB123-FAB135, FAB137, HER073-HER083, LGS125-LGS133, LGS137, LGS141-LGS143, LGS150-LGS152, LSS007, and WIN020-WIN022
+- Added image links for LGS150-LGS152, LGS111, LGS113, LGS119
+- Added card data for OUT cards - data entry assitance credit: beisei, Firecrest, FloatingSkull, manwaring, Mofte, and Tune Star
+- Fixed an error in the functional text of Spring Tidings, Katsu, and `Katsu, the Wanderer`
+- Fixed a mispelling in Mateusz Wiśniewski's name (had been entered as Mateusz Wisniewski)
+- Updated the functional text of Harmonized Kodachi, Ravenous Rabble, and `Benji, the Piercing Wind`
+
+03-23-23:
+- Added card data (minus images) for ARA set - data entry credit: manwaring
+
+03-27-23:
+- Add image links for extended art Redback Shroud and Trench of Sunken Treasure
+- Added card data (minus images) for AZL set
+
+04-02-23:
+- Added card data (minus images) for BEN, KAT, RIP, and UZU sets
+- Added card data (minus images) for FAB079 and FAB136
+- Fixed an issue with Cranial Crush's rarity
+- Fixed missing data for cold foil Imperial Warhorn
+- Fixed missing flavor text for Invoke Nekria
+- Added removed_keywords and interacts_with_keywords fields to JSON/CSV files
+- Fixed missing card references between Hala Goldenhelm + Glistening Steelblade and Chief Ruk'utan + Alpha Rampage
+- Fixed Nerves of Steel incorrectly having Battleworn and Temper listed as keywords (moved to removed_keywords)
+
+04-27-23:
+- Added Good Deeds Don’t Go Unnoticed card data (minus image) - data entry credit: manwaring
+- Added Pink Visor card data (minus image) - data entry credit: manwaring
+- Added missing EA data for Earthlore Bounty - data entry credit: manwaring
+- Fixed an issue with T-Bone (blue) being marked as Common - bugfix credit: manwaring
+- Fixed an issue with Razor's Edge (yellow) having the Stealth keyword - bugfix credit: manwaring
+- Fixed an issue with Death Touch being marked as legal in commoner format - bugfix credit: manwaring
+- Fixed an issue with Carlos Cruchaga missing from Codex of Bloodrot Marvel - bugfix credit: manwaring
+- Added card data (minus images) for JDG005, JDG006, JDG009, JDG012, and HER069
+- Added Pairs keyword (minus description)
+
+05-03-23:
+- Updated HER081-HER083
+- Added card data (including images) for LGS134-LGS136
+- Added image links for FAB123-FAB131, FAB133-FAB135, FAB137, HER069-HER071, HER073, HER076-HER078, HER082, HER083, LGS100-LGS102, LGS112-LGS115, LGS120, LGS121, LGS125-LGS128, LGS133, LGS137, XXX011-XXX012
+- Updated image links for HER074 and LGS111, LGS113, LGS129, LGS130-LGS132
+- Fixed an error where Arakni, Solitary Confinement had the card id HER081 instead of HER082
+- Fixed an error where Riptide had the card id HER083 instead of HER081
+- Fixed an error where Uzuri had the card id HER082 instead of HER083
+- Fixed an error where FAB122's foiling was incorrectly marked as S instead of R
+- Updated Blitz suspended status for Aether Icevein, Crown of Seeds, and Hypothermia
+- Updated Blitz banned status for Drone of Brutality
+- Updated Blitz Living Legend status for Iyslander, Kraken's Aethervein, Oldhim, and Winter's Wail
+- Updated UPF banned status for Go Bananas
+
+05-04-23:
+- Added card data for FAB080
+- Added image links for FAB079, FAB081, FAB095-FAB103, FAB105-FAB109, and HER079
+- Updated image link for LGS119
+- Updated functional text for Heart of Fyendal and Command and Conquer
+- Fixed typos in the type text for Ancestral Empowerment, Flic Flak, Viziertronic Model i, Herald of Judgment, Phantasmify, Carrion Husk, and Ebon Fold
+- Updated the German ability, keyword, set, and type CSV to add updated translation data from OUT and HP2 - data entry credit: Mofte
+
+06-01-23:
+- Fixed an issue where BEN018 was associated with Be Like Water (red) instead of Be Like Water (yellow) - bug notice credit: manwaring
+- Fixed an issue where Bad Beats, Isenhowl Weathervane, Oath of Steel, and Tear Limb From Limb were missing the Go Again keyword  - bug notice credit: Firecrest
+
+06-10-23:
+- Updated functional text for Wounded Bull and Arc Light Sentinel
+- Added card data (minus images) for JDG011, JDG013, and JDG014
+
+06-19-23:
+- Updated card.csv to just contain card data, and moved card printing data out to new card-printing.csv files for each language
+- Updated English set.csv to just contain set data (for all languages), removed set.csv files from non-English languages, and moved set printing data out to new set-printing.csv files for each language
+- Updated "Variation" field names in the card-face-association.csv to use "Printing" wording
+- Updated validate-references.py script with more reference checks and to handle the new CSVs
+- Updated clean-csvs.py script to clean new CSVs
+- Updated static web site with new HTMLs
+- Updated JSON schemas
+- Added art-variation.csv and art-variation-schema.json
+- Removed all ODS files
+- Fixed double sided "marvel" `Bravo, Star of the Show` having an incorrect represenation
+- Fixed some double sided marvel Hero cards being incorrectly marked as being DFCs
+- Added a release-template.md for an easier time prepping future release notes
+- Updated CSV documentation
+- Added TCGPlayer Product ID field to the new card-printing.csv
+- Renamed set_edition_unique_id field to set_printing_unique_id in card.json and card-flattened.json
+- Renamed variation_unique_id field to printing_unique_id in card-flattened.json
+- Renamed foilings field to foiling and changed it from an array of strings to a string in card.json and card-flattened.json
+- Added tcgplayer_product_id and tcgplayer_url to card.json and card-flattened.json
+
+06-20-23:
+- Fixed an issue with Withstand incorrectly having defense values listed
+
+07-15-23:
+- Added DTD card data - data entry assistance credit: manwaring and Firecrest
+- Added card data for FAB138-FAB143, LGS138-LGS140, LGS144-LGS149, LGS153-LGS163, LGS172-LGS174, and LGS179-LGS181
+- Added card images for LGS141-LGS143 and LSS006-LSS007
+- Added Awaken, Mirage, Rune Gate, Solflare, and Unity keywords
+- Added Demi-Hero and Figment types
+- Updated functional text for Herald of Judgment, Herald of Protection, Herald of Ravages, Herald of Rebirth, Herald of Tenacity, Herald of Triumph, and Wartune Herald
+- Updated CC banned status for Bull's Eye Bracers, Pulse of Isenloft, and Bloosheath Skeleta
+- Updated CC suspended status for Bloosheath Skeleta
+- Updated CC Living Legend status for `Oldhim, Grandfather of Eternity` and Winter's Wail
+
+07-16-23:
+- Added JDG008 card data
+- Fixed Chains of Mephetis being spelled incorrectly - bug notice credit: manwaring
+- Fixed Diadem of Dreamstate EA printing not being marked EA - bug notice credit: manwaring
+- Fixed Grim Feast missing a type text - bug notice credit: manwaring
+- Fixed Spoiled Skull EA printing not being marked EA - bug notice credit: manwaring
+- Fixed an issue with the functional text of Prayer of Bellona and Celestial Resolve - bug notice credit: manwaring
+- Fixed an issue with Banneret of Courage, Banneret of Gallantry, Banneret of Protection, and `Bellona, Archangel of War` not being marked is not legal in Commoner - bug notice credit: manwaring
+- Fixed `Bellona, Archangel of War` having the wrong foiling data - bug notice credit: manwaring
+- Fixed marvel Figment of Triumph having the wrong rarity data - bug notice credit: manwaring
+
+07-24-23:
+- Fixed Hell Hammer not being marked as Rare - bugfix credit: manwaring
+- Fixed the type text of Phantasmify - bugfix credit: manwaring
+- Fixed Soul Cleaver yellow and blue having incorrect power
+- Fixed Blood Dripping Frenzy incorrectly having Blood Debt as a Card Keyword
+
+07-28-23:
+- Removed flavor text from Bloodrot Pox, Frailty, and Inertia printings that do not have flavor text - bug notice credit: JJScott
+
+07-30-23:
+- Fixed issue with Levia, Redeemed having a printing listed incorrectly as Rainbow Foil instead of Standard - bug notice credit: schubam
+- Fixed issue with Reality Refractor having a printing listed incorrectly as Rainbow Foil instead of Cold Foil - bug notice credit: schubam
+
+08-24-23:
+- Added card data for FAB153, FAB155, FAB158-FAB160, FAB164-FAB165, FAB167, JDG010, HER081, HER086, LGS164-LGS171, LSS009, WIN023-WIN024
+- Added card images for WIN001-WIN024
+
+08-25-23:
+- Fixed incorrect capitalization of Off-Hand in Silversheen Needle's type info - bug notice credit: dcollinsn
+
+08-26-23:
+- Fixed incorrect power for Codex of Frailty - bug notice credit: Stingray
+
+9-08-23:
+- Added card images for 1HP336, DYN121 (EA), DYN175 (EA), EVR017 (FA), and FAB136
+
+10-07-23:
+- Added card data for EVO and TCC - data entry assistance credit: BearLeePlays, Blasmophet, Darth_Prentiss, Dihimono, Firecrest, hoodwill, manwaring, Mofte, OverkillAJ, Stingray, Tetsuo
+- Added card data for FAB168-FAB177, HER097-HER099, HER103, LGS212-LGS226, and WIN025-WIN027
+- Updated images for LGS169-LGS172 and LGS190-LGS193
+- Updated functional text for Bittering Thorns, Blessing of Qi, Chokeslam, Coax a Commotion, Copper, Cranial Crush, Crankshaft, Disable, Energy Potion, Flying Kick, Fyendal's Spring Tunic, Healing Potion, Hyper Driver, Jump Start, Life of the Party, Maximum Velocity, Over Loop, Potion of Strength, Pouncing Qi, Quicken, Salt the Wound, Tearing Shuko, Teklo Foundry Heart, and Timesnap Potion
+- Fixed incorrect artist for Figment of Erudition - bug notice credit: zombii
+- Fixed incorrect foiling for CRU138 Unlimited Edition - bug notice credit: Stingray
+- Fixed incorrect Commoner legality for `Prism, Advent of Thrones`, Banneret of Vigor, Banneret of Salvation, and Banneret of Resilience - bug notice credit: manwaring
+- Fixed incorrect Blitz legality for Drone of Brutality - bug notice credit: manwaring
+- Fixed incorrect rarity for OUT237 - bug notice credit: manwaring
+- Fixed incorrect functional text for Light the Way, Celestial Resolve - bug notice credit: manwaring
+- Fixed an error where the EVR printing of Quicken wasn't being associated to the Quicken card - bug notice credit: manwaring
+
+10-08-23:
+- Fixed missing Illusionist type for Dust from the Chrome Caverns - bug notice credit: OotTheMonk
+
+10-11-23:
+- Fixed typo in the name for Evo Circuit Breaker - bug notice credit: Soiure
+- Added card data for Diamond Hands (minus image)
+- Added card association between Pink Visor and `Ruu'di, Gem Keeper`
+
+10-14-23:
+- Added new populate-tcgplayer-product-ids script
+- Added all TCGPlayer Product IDs for 1HP, ARA, AZL, BEN, BOL, BRI, BVO, CHN, CRU, DRO, DVR, DYN, ELE, EVR, KAT, KSU, IRA, LEV, LXI, MON, OLD, PSM, RIP, RVD, UPR, and UZU
+- Added more missing TCGPlayer Product IDs for ARC, DTD, FAB, FAI, HER, JDG, LGS, LSS, OUT, RNR, and XXX
+- Fixed incorrect Commoner legality for Blood Scent - bug notice credit: Palada
+
+10-16-23:
+- Added card data for Jack-o'-lantern
+- Added printing data for LGS174-LGS176, LGS182-LGS185, and LGS194-LGS197
+
+10-27-23:
+- Added card data for Agility, Double Down, Runner Runner, and Talk a Big Game
+- Added printing data for FAB144-FAB152, FAB193-FAB195, and HVY240
+
+10-28-23:
+- Added card images for ARA001-ARA029
+
+10-31-23:
+- Added card images for AZL001-AZL030, BEN001-BEN026, KAT001-KAT026, RIP001-RIP030, and UZU001-UZU031
+
+11-14-23:
+- Updated CC Living Legend status for `Lexi, Livewire` and `Voltaire, Strike Twice`
+- Updated CC Suspended status for Bull's Eye Bracers
+- Updated Blitz Suspended status for Soul Reaping
+- Added card data for `Squizzy & Floof` (data entry credit - manwaring)
+- Added printing data for FAB121 and HER100 (data entry credit - manwaring)
+- Added printing data for LGS197-LGS199 and LGS227
+- Fixed Dive Through Data (yellow and blue) missing Opt 1 keyword (bug notice - Stingray)
+
+11-18-23:
+- Added card data for Popped Collar Polo
+- Added printing data for FAB152, HER104, and LSS114-LSS115
+
+11-24-23:
+- Added printing data for LSS116
+
+11-27-23:
+- Updated CC Living Legend status for `Iyslander, Stormbinde` and Kraken's Aethervein
+- Updated CC Suspended status for Amulet of Ice and Hypothermia
+- Updated Blitz Living Legend status for Chane, Galaxxi Black, Kano, Crucible of Aetherweave, `Kassai, Cintari Sellsword`, and Cintari Sabers
+- Updated Blitz Suspended status for Seeds of Agony and Soul Reaping
+- Added Living Legend Restricted status files and fields
+
+12-03-23:
+- Added card data for Fabric of Blossoms and Fabric of Spring
+- Added printing data for LSS010 and LSS011
+- Updated functional text for Blossom of Spring
+
+12-04-23:
+- Added printing data for FAB178, HER087-HER088, HER101 and JDG015-JDG018
+- Added images for FAB144-FAB152, HER087, HER100-HER101, LGS176-LGS178, LGS194-LGS199, LGS227, LSS008, and LSS014-LSS016
+- Added TCGPlayer info for FAB178, HER100-HER101, JDG015-JDG018, LGS176-LGS178, and LGS194-LGS199
+
+12-16-23:
+- Added printing data for HER089-HER096, HER102, and LGS201-LGS204
+- Added images for FAB177, HER088-HER096, HER103-HER104, LGS198-LGS204, LGS212-LGS222, LGS226, WIN025-WIN027
+- Added TCGPlayer info for FAB153 and FAB176
+
+03-04-24:
+- Added card data for new HVY cards - data entry assistance credit: manwaring, hoodwill, Pizza
+- Added card data for Intellect Penalty, Proclamation of Production
+- Added printing data for BET001-BET030, FAB179-FAB192, FAB196-FAB206, FAB223, HER103-HER110, HVY000-HVY254, JDG000, JDG019-JDG029, KSI001-KSI030, KYO001-KYO029, LGS228-LGS252, OLA001-OLA030, RNR001-RNR029 (blitz), VIC001-VIC030, WIN028-WIN032
+- Added images for EVR155 (Cold Foil), FAB172-FAB175, FAB178, FAB193-FAB195, HER102, HER105-HER110, HVY000-HVY254, JDG019-JDG029, KSI001-KSI030, KYO001-KYO029, LGS228-LGS252, OLA001-OLA030, RNR001-RNR029 (blitz), VIC001-VIC030, WIN028-WIN032
+- Added TCGPlayer IDs for FAB152, FAB172-FAB175, FAB177-FAB206, FAB223, HER088-HER093, HER095-HER096, HER103-HER104, HVY000-HVY254, JDG020-JDG028, KSI001-KSI030, KYO001-KYO029, LGS201-LGS204, LGS229-LGS252, OLA001-OLA030, RNR001-RNR029 (blitz), VIC001-VIC030
+- Added Macro type
+- Added Beat Chest, Clash, Guardwell, Stealth, Universal, and Wager keywords
+- Updated functional text for Adrenaline Rush, Gold, Mandible Claw, Pack Hunt, and Vigor
+- Updated functional text for Ironsong Pride and Runeblood Barrier with errata from Errata Bulletin #8\
+- Fixed incorrect format legalites for Arakni, `Arakni, Solitary Confinement`, Jack-o'-Lantern, Uzuri, and `Yoji, Royal Protector`
+- Fixed Fabric of Spring missing the Legendary keyword
+- Fixed JDG012 being marked as Alternate Border when other JDG promos are not
+- Fixed Codex of Inertia having 0 power instead of null
+- Fixed Proclamation of Requisition not having Action marked as an ability
+- Fixed Ironsong Pride having the incorrect TCGPlayer ID - bug notice credit: manwaring
+- Fixed Snapdragon Scalers alpha printing foiling being marked as rainbow foil instead of cold foil
+- Fixed DTD set printing missing a release date
+
+03-11-24:
+- Fixed an issue where `Hummingbird, Call of Adventure` had the incorrect name of `Hummingbird, Adventure's Call` - bug notice credit: TheZackAttack
+- Added Evo, Mercenary, and Wrench as types - notice credit: pnelson5
+
+03-19-24:
+- Fixed incorrect type text for Victor Goldmane - bug notice credit: xerogold
+
+03-24-24:
+- Added card data for Fabric of Scales and Venomback Fabric
+- Added printing data for LSS017-LSS018
+
+03-29-24:
+- Added card data for Big Blue Sky, Run Roughshod, Savage Sash, and Wide Blue Yonder
+- Added printing data for AKO005-AKO024, FAB207, FAB231, FAB238-FAB239, HER111-HER112
+- Update CC Banned status for Berserk and Crown of Seeds
+- Update Blitz Banned status for Berserk
+
+03-31-24
+- Added printing data for LGS253-LGS257 - notice credit: torgeirl
+- Updated functional text for Wrecker Romp and Seismic Surge - notice credit: manwaring
+- Fixed missing Go again keyword for Wild Ride - bug notice credit: Stingray
+- Fixed TCGPlayer ID for Hold 'Em (Red) - bug notice credit: manwaring
+- Fixed functional text formatting for Monstrous Veil
+
+04-05-24:
+- Added card data for Strength Rules All
+- Added printing data for AKO013
+- Fixed wrong card id for Savage Sash (AKO005 -> AKO004)
+
+04-17-24:
+- Added printing data for LGS258-LGS226
+- Fixed missing Wager keyword for Wage Agility (Red)
+- Fixed missing EA art variation for FAB088
+
+05-03-24:
+- Added card data for Hide Tanner, Saving Grace, and Warpath of Winged Grace
+- Added printing data for AKO001-AKO028
+- Added Printing data for ASB006 and ASB025
+- Updated functional text for Beaten Trackers, Bare Fangs, Humble, Pulping, Reincarnate, Savage Beatdown, and Wild Ride
+
+06-03-24:
+- Added card data for MST - data entry assistance credit: manwaring, hoodwill
+- Added printing data for ENG001-ENG029, FAB232-FAB249, HER113-HER116, LGS263-LGS281, MST000-MST238, NUU001-NUU029, WIN033-WIN035, and ZEN001-ZEN029 - data entry assistance credit: manwaring, hoodwill
+- Added card images for ENG001-ENG029, FAB232-FAB249, HER111-HER116, LGS263-LGS281, MST000-MST238, NUU001-NUU029, WIN033-WIN035, and ZEN001-ZEN029 - data entry assistance credit: manwaring, hoodwill
+- Added Amp, Cloaked, Transcend keywords
+- Added Chi type
+- Added Blitz Living Legend status for `Ira, Crimson Haze` and Edge of Autumn - data entry assistance credit: manwaring
+- Added CC Living Legend status for `Dromai, Ash Artist` and Storm of Sandikai - data entry assistance credit: manwaring
+- Updated Commoner legality of Flex Claws due to its reprinting - data entry assistance credit: manwaring
+- Updated functional text for Blood on Her Hands, Endless Arrow, Gaze the Ages, Harmonized Kodachi, Ironsong Determination, Mandible Claw, Qi Unleashed, Quicksilver Dagger, and Searing Emberblade
+- Fixed Sigil of Protection missing Ward keyword - bug notice credit: manwaring
+- Fixed Blitz and Commoner legality for Riptide, Lurker of the Deep - bug notice credit: manwaring
+- Fixed Reality Refractor's artist spelling - bug notice credit: manwaring
+- Fixed functional text for `Nasreth, the Soul Harrower`'s having {l} listed instead of {h} - bug notice credit: manwaring
+- Fixed issues with some Arcane Lantern and Dash I/O printings having extra spaces in the artist field - bug notice credit: manwaring
+- Fixed a foiling for `Blasmophet, Levia Consumed` being listed as Rainbow Foil instead of Non-foil - bug notice credit: manwaring

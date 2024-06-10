@@ -2,6 +2,7 @@ from os import makedirs
 from os.path import exists
 
 import generate_json_file.ability
+import generate_json_file.art_variation
 import generate_json_file.artist
 import generate_json_file.card
 import generate_json_file.card_face_association
@@ -46,7 +47,9 @@ generate_json_file.legality.generate_json_file("living-legend-cc")
 generate_json_file.legality.generate_json_file("suspended-blitz")
 generate_json_file.legality.generate_json_file("suspended-cc")
 generate_json_file.legality.generate_json_file("suspended-commoner")
+generate_json_file.legality.generate_json_file("restricted-ll")
 
+generate_json_file.art_variation.generate_json_file()
 generate_json_file.card.generate_json_file()
 generate_json_file.card_flattened.generate_json_file("english")
 generate_json_file.edition.generate_json_file()

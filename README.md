@@ -1,5 +1,5 @@
 # Flesh and Blood Cards
-[Patreon](https://www.patreon.com/TheFabCube) &#183; [Releases](https://github.com/the-fab-cube/flesh-and-blood-cards/releases)
+[Patreon](https://www.patreon.com/TheFabCube) &#183; [Discord](https://discord.gg/NRKZsmEJm2) &#183; [Releases](https://github.com/the-fab-cube/flesh-and-blood-cards/releases)
 
 ## Table of Contents
 1. [General Overview](#general-overview)
@@ -54,7 +54,7 @@ This data set currently supports the following languages:
 - Italian
 - Spanish
 
-In this data set, English is considered the "default" language. All cards, keywords, types, etc. should be added in English first, with the exception of sets. These are all contained within the `english/` subfolders of the `json/` and `csvs/`.
+In this data set, English is considered the "default" language. All cards, keywords, types, etc. should be added in English first (for sets, this is even if the set has never been printed in English). These are all contained within the `english/` subfolders of the `json/` and `csvs/`.
 
 All other languages have their own subfolders with translated data, with unique_ids corresponding to the English data. These include:
 - Abilities
@@ -64,11 +64,11 @@ All other languages have their own subfolders with translated data, with unique_
 
 There are three types of data that are handled somewhat differently in other languages.
 
-Sets do not have to have a corresponding unique_id in the English data, because some sets have only been published in non-English languages (ex: History Pack - Black Label).
+Each language folder has its own artist data to account for the possibility that a card variation in one language has an artist that another language does not.
 
-Similarly, each language folder has its own artist data to account for the possibility that a card variation in one language has an artist that another language does not.
+While the card data should be consistent across all languages with just the text being translated, the card printings are not. Each languages' card printing data only has data on the printings that card has had in that language.
 
-Finally, while the card data should be consistent across all languages with just the text being translated, the card printings are not. Each languages card data only has data on the printings that card has had in that language.
+Similarly, each languages' set printings only contain the printings of the set for that language.
 
 
 ## Changelogs and Contribution Credit
@@ -98,8 +98,10 @@ One of my favorite parts of maintaining this data set has been seeing all the co
 
 * fab-cards - [Repo](https://github.com/fabrary/fab-cards)
 * FaB Eco Proxy - [Website](https://aongaro.github.io/fab-eco-proxy/) • [Repo](https://github.com/aongaro/fab-eco-proxy)
+* FaB Proxy - [Website](https://fabproxy.com/)
 * Fabrary - [Website](https://fabrary.net/)
 * Flesh and Blood TCG Analysis Environment - [Repo](https://github.com/HarrisonTotty/fab)
 * Legendary Stories - [Website](https://legendarystories.net/) • [Repo](https://github.com/nathaneastwood/fablore)
+* Rules of Rathe - [Splash Page](https://rulesofrathe.com/) • [iOS](https://apps.apple.com/de/app/rules-of-rathe/id1585516530) • [Android](https://play.google.com/store/apps/details?id=com.rulesofrathe&pli=1) • [Website](https://rulesofrathe.com/m/)
 * Talishar Online - [Website](https://talishar.net/) • [Repo](https://github.com/Talishar/Talishar)
 * The Fab Cube - [Website](https://www.thefabcube.com/)

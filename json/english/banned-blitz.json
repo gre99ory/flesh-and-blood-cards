@@ -198,5 +198,93 @@
         "date_announced": "2022-11-10T00:00:00.000Z",
         "date_in_effect": "2022-11-11T00:00:00.000Z",
         "legality_article": "https://fabtcg.com/articles/banned-suspended-nov-9/"
+    },
+    {
+        "unique_id": "nkgK7knCfNnjpmmbrRLMm",
+        "card_unique_id": "9bQFfTFGQWJFWrcJnfQgz",
+        "status_active": false,
+        "date_announced": "2023-05-04T00:00:00.000Z",
+        "date_in_effect": "2023-05-05T00:00:00.000Z",
+        "legality_article": "https://fabtcg.com/articles/banned-suspended-may-2023/"
+    },
+    {
+        "unique_id": "9gJjwGHwNFDcjMgLTcnLW",
+        "card_unique_id": "Nhmj8MBNCmWFC68JkhkNC",
+        "status_active": false,
+        "date_announced": "2023-05-04T00:00:00.000Z",
+        "date_in_effect": "2023-05-05T00:00:00.000Z",
+        "legality_article": "https://fabtcg.com/articles/banned-suspended-may-2023/"
+    },
+    {
+        "unique_id": "mjKk6fDggfBBncWCDKtkR",
+        "card_unique_id": "hJt6FwT8mhQbcWQLzgHMT",
+        "status_active": false,
+        "date_announced": "2023-05-04T00:00:00.000Z",
+        "date_in_effect": "2023-05-05T00:00:00.000Z",
+        "legality_article": "https://fabtcg.com/articles/banned-suspended-may-2023/"
+    },
+    {
+        "unique_id": "J9GCWBbh9PtGWD6tPtp96",
+        "card_unique_id": "9bQFfTFGQWJFWrcJnfQgz",
+        "status_active": true,
+        "date_announced": "2023-08-16T00:00:00.000Z",
+        "date_in_effect": "2023-08-16T00:00:00.000Z",
+        "legality_article": "https://fabtcg.com/articles/official-blitz-update/"
+    },
+    {
+        "unique_id": "TLWT6CJndzLkKQT6JD6fK",
+        "card_unique_id": "Nhmj8MBNCmWFC68JkhkNC",
+        "status_active": true,
+        "date_announced": "2023-08-16T00:00:00.000Z",
+        "date_in_effect": "2023-08-16T00:00:00.000Z",
+        "legality_article": "https://fabtcg.com/articles/official-blitz-update/"
+    },
+    {
+        "unique_id": "WhfJz6q6jggWk7zfJQ9dg",
+        "card_unique_id": "hJt6FwT8mhQbcWQLzgHMT",
+        "status_active": true,
+        "date_announced": "2023-08-16T00:00:00.000Z",
+        "date_in_effect": "2023-08-16T00:00:00.000Z",
+        "legality_article": "https://fabtcg.com/articles/official-blitz-update/"
+    },
+    {
+        "unique_id": "ppPLnCB78kPghcNMBGjzD",
+        "card_unique_id": "CrWjLrqtQtppQhQCMt9LH",
+        "status_active": false,
+        "date_announced": "2023-12-18T00:00:00.000Z",
+        "date_in_effect": "2023-12-22T00:00:00.000Z",
+        "legality_article": "https://fabtcg.com/articles/scheduled-banned-and-restricted-announcement-eoy/"
+    },
+    {
+        "unique_id": "QBGnTFCJCb7fnDHGzqwTr",
+        "card_unique_id": "fMdnz9D9MRDrzMrBFf7Kr",
+        "status_active": false,
+        "date_announced": "2023-12-18T00:00:00.000Z",
+        "date_in_effect": "2023-12-22T00:00:00.000Z",
+        "legality_article": "https://fabtcg.com/articles/scheduled-banned-and-restricted-announcement-eoy/"
+    },
+    {
+        "unique_id": "LGTNHqMH9qQHp8NTCT6tP",
+        "card_unique_id": "nPwjcRFWBmzNQWM6BMcgB",
+        "status_active": false,
+        "date_announced": "2023-12-18T00:00:00.000Z",
+        "date_in_effect": "2023-12-22T00:00:00.000Z",
+        "legality_article": "https://fabtcg.com/articles/scheduled-banned-and-restricted-announcement-eoy/"
+    },
+    {
+        "unique_id": "fMFwKT9PMBR8wppQfht7j",
+        "card_unique_id": "k8wMFCFHtGTtTRfnzKGqQ",
+        "status_active": false,
+        "date_announced": "2023-12-18T00:00:00.000Z",
+        "date_in_effect": "2023-12-22T00:00:00.000Z",
+        "legality_article": "https://fabtcg.com/articles/scheduled-banned-and-restricted-announcement-eoy/"
+    },
+    {
+        "unique_id": "cBjtLMpFDRpRwbWrJRffz",
+        "card_unique_id": "mGqzLzjTgNjr7qJGMTjtW",
+        "status_active": true,
+        "date_announced": "2024-03-25T00:00:00.000Z",
+        "date_in_effect": "2024-03-25T00:00:00.000Z",
+        "legality_article": "https://fabtcg.com/articles/scheduled-banned-and-restricted-announcement-25-3-24/"
     }
 ]

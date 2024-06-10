@@ -1,5 +1,17 @@
 [
     {
+        "unique_id": "Fh696f9wpcPgwgpgg8d9j",
+        "name": "Ambush",
+        "description": "",
+        "description_plain": ""
+    },
+    {
+        "unique_id": "tTfc8P6NGMgLKWG9LFkDJ",
+        "name": "Amp X",
+        "description": "The next time you would deal arcane damage this turn, instead deal that much plus X. This happens before prevention effects.",
+        "description_plain": "The next time you would deal arcane damage this turn, instead deal that much plus X. This happens before prevention effects."
+    },
+    {
         "unique_id": "77JKJwz6k8BRrGbmRDPTT",
         "name": "Arcane Barrier X",
         "description": "If you would be dealt arcane damage you may pay X{r} instead to prevent X arcane damage that source will deal.",
@@ -12,10 +24,22 @@
         "description_plain": ""
     },
     {
+        "unique_id": "DJ9GNbwRNBFhcqhFgtFkR",
+        "name": "Awaken",
+        "description": "",
+        "description_plain": ""
+    },
+    {
         "unique_id": "bKgtwKPTzJ69QdFDfm9bR",
         "name": "Battleworn",
         "description": "Equipment that wear down after each time they are used to defend. If you defend with a card with **Battleworn**, put a -1{d} counter on it when the combat chain closes.",
         "description_plain": "Equipment that wear down after each time they are used to defend. If you defend with a card with Battleworn, put a -1{d} counter on it when the combat chain closes."
+    },
+    {
+        "unique_id": "JHPDpLdkdBNb76pLM9q8C",
+        "name": "Beat Chest",
+        "description": "",
+        "description_plain": ""
     },
     {
         "unique_id": "cG88qzrJhwLnJH6TJ9cpp",
@@ -48,6 +72,18 @@
         "description_plain": "Charge is a keyword that exist on Light Warrior attacks. This showcases Boltyn's eagerness to engage in battle and charge his soul in the process. As an additional cost to playing a card with charge you may put a card from your hand into your hero's soul. This would turn on powerful effects that care about if you have charged this turn. You may elect to not pay the additional cost o charge - however this would mean you did not charge.)"
     },
     {
+        "unique_id": "PwFQq6hKkTq7dNjKJ6KcB",
+        "name": "Clash",
+        "description": "",
+        "description_plain": ""
+    },
+    {
+        "unique_id": "MrLqQCHjdB86fJCQJjJKw",
+        "name": "Cloaked",
+        "description": "Equip this face-down.",
+        "description_plain": "Equip this face-down."
+    },
+    {
         "unique_id": "H6nNm6Nndrp8qTGFJL7GB",
         "name": "Combo",
         "description": "A Ninja mechanic that showcases the power of playing multiple attacks in a perfect sequence. **Combo** cares about the last (most recent previous) attack that was played in the combat chain.",
@@ -58,6 +94,12 @@
         "name": "Contract",
         "description": "When a player is contracted, they are given a set of instructions to complete. If they perform those instructions, they are considered to have completed the contract.",
         "description_plain": "When a player is contracted, they are given a set of instructions to complete. If they perform those instructions, they are considered to have completed the contract."
+    },
+    {
+        "unique_id": "C66q6GppkfMfbdB8KkhJN",
+        "name": "Crank",
+        "description": "",
+        "description_plain": ""
     },
     {
         "unique_id": "rG7F9GkDcmwNMczRbtwhL",
@@ -84,6 +126,12 @@
         "description_plain": "Essence is a keyword that exists on Elemental hero cards showing what Elements that hero specializes in and what Element cards can be included in the deck."
     },
     {
+        "unique_id": "wcg8K8J7frtBp89w7P6gm",
+        "name": "Evo Upgrade",
+        "description": "",
+        "description_plain": ""
+    },
+    {
         "unique_id": "g6BD6HNFJBRDDdwD9kBWK",
         "name": "Freeze",
         "description": "A **frozen** object can't be played or activated.",
@@ -96,10 +144,22 @@
         "description_plain": "Fusion is a keyword that fuses one or more elements with an elemental card to give an additional effect."
     },
     {
+        "unique_id": "jrGkNBJRdJDK9BPp7qGbf",
+        "name": "Galvanize",
+        "description": "",
+        "description_plain": ""
+    },
+    {
         "unique_id": "mmf6BdTtrbCGrhdhg8K9g",
         "name": "Go again",
         "description": "**Go again** allows multiple actions to be played in a turn, when usually playing an action would use up your action point, and therefore end your turn. A card with **go again** gives the controller of that card or activated ability 1 action point when it resolves.",
         "description_plain": "Go again allows multiple actions to be played in a turn, when usually playing an action would use up your action point, and therefore end your turn. A card with go again gives the controller of that card or activated ability 1 action point when it resolves."
+    },
+    {
+        "unique_id": "JpQHgf9ttGqRjHjW6rgR8",
+        "name": "Guardwell",
+        "description": "",
+        "description_plain": ""
     },
     {
         "unique_id": "hbjfTFTQmCR9FjzP7DWGK",
@@ -126,6 +186,18 @@
         "description_plain": "An Illusionist mechanic that applies effects if it is under another permanent."
     },
     {
+        "unique_id": "jTtHPbKjwLkkDhRQHpWnK",
+        "name": "Mirage",
+        "description": "",
+        "description_plain": ""
+    },
+    {
+        "unique_id": "N6njwjtbdnp8c7RCgPng8",
+        "name": "Modular",
+        "description": "",
+        "description_plain": ""
+    },
+    {
         "unique_id": "KjHmzrtCdmW698JjW8J6j",
         "name": "Negate",
         "description": "**Negating** a card on a layer of the chain will prevent the card from resolving.",
@@ -144,6 +216,12 @@
         "description_plain": "The defending hero can't defend this with more than one action card."
     },
     {
+        "unique_id": "mFCtFC79DRMhbJf9MTNBL",
+        "name": "Pairs",
+        "description": "",
+        "description_plain": ""
+    },
+    {
         "unique_id": "GQfWb9GwKkw9RNrK6L6B9",
         "name": "Phantasm",
         "description": "**Phantasm** is a keyword that exists on Illusionist attacks. Illusionist attacks with **phantasm** are powerful but fragile. When an attack with **phantasm** is defended by a 6{p}+ non-Illusionist attack action card, the attack is destroyed and the combat chain closes.",
@@ -154,6 +232,12 @@
         "name": "Piercing X",
         "description": "If this is defended by an equipment, it has +X{p}.",
         "description_plain": "If this is defended by an equipment, it has +X{p}."
+    },
+    {
+        "unique_id": "LNcJ8JT8MtHcJkwtHtmm9",
+        "name": "Protect",
+        "description": "",
+        "description_plain": ""
     },
     {
         "unique_id": "BrB9ww8W6WgHnWGFzFzqd",
@@ -174,10 +258,28 @@
         "description_plain": "A Warrior mechanic that showcases the prowess a warrior has when they are engaged in close combat. Reprise effects \"turn on\" if the defending hero has defended with a card from their hand."
     },
     {
+        "unique_id": "qhmLJGzNtDRbd9HLFbLFp",
+        "name": "Rune Gate",
+        "description": "",
+        "description_plain": ""
+    },
+    {
         "unique_id": "FL9rFc6hKw7WbRnCBqBzR",
         "name": "Rupture",
         "description": "A Draconic mechanic that applies certain effects if the card is played at chain link 4 or higher.",
         "description_plain": "A Draconic mechanic that applies certain effects if the card is played at chain link 4 or higher."
+    },
+    {
+        "unique_id": "bbpQG8LjWGCDk7GDzf686",
+        "name": "Scrap",
+        "description": "",
+        "description_plain": ""
+    },
+    {
+        "unique_id": "8mqHH6LQfddFgnbbm8pLp",
+        "name": "Solflare",
+        "description": "",
+        "description_plain": ""
     },
     {
         "unique_id": "cjn8CBRWPmdG8fwJNTBJt",
@@ -198,6 +300,12 @@
         "description_plain": "Spellvoid is a keyword primarily on equipment or items. Spellvoid is a one time use effect that prevents arcane damage."
     },
     {
+        "unique_id": "gkcpTQwRjMPTtRkrHpDhT",
+        "name": "Stealth",
+        "description": "",
+        "description_plain": ""
+    },
+    {
         "unique_id": "CKRGw9dCnNdKpNTdTBqgz",
         "name": "Surge",
         "description": "**Surge** is an effect that applies if a card deals more arcane damage than it's printed amount.",
@@ -210,6 +318,18 @@
         "description_plain": "Temper is a keyword that exists on equipment. Usually high in defense, Temper equipment presents a choice when it is down to 1{d}, of whether to defend with it one last time and see it destroyed, or save it to use for its ability."
     },
     {
+        "unique_id": "LwJpTqDGKM96gQzcKwW76",
+        "name": "Tower",
+        "description": "",
+        "description_plain": ""
+    },
+    {
+        "unique_id": "9PpnGJtT6F6PgKJTkjMmT",
+        "name": "Transcend",
+        "description": "",
+        "description_plain": ""
+    },
+    {
         "unique_id": "hGzPP7bNMQJWNJ8QzQhDQ",
         "name": "Transform",
         "description": "An Illusionist mechanic that puts specified objects under another card or creates a token and puts specified objects under it.",
@@ -220,6 +340,24 @@
         "name": "Unfreeze",
         "description": "Removes **Freeze** from an object.",
         "description_plain": "Removes Freeze from an object."
+    },
+    {
+        "unique_id": "H6QfMpMdgD8Fhcfqgq6rm",
+        "name": "Unity",
+        "description": "",
+        "description_plain": ""
+    },
+    {
+        "unique_id": "tkB9tfFWLbkpqfNJwpTWF",
+        "name": "Universal",
+        "description": "",
+        "description_plain": ""
+    },
+    {
+        "unique_id": "k9Tt9gnfKHKFHHmq9LTnG",
+        "name": "Wager",
+        "description": "",
+        "description_plain": ""
     },
     {
         "unique_id": "hWpPNJ8jcqTHpgnQcPNkm",
